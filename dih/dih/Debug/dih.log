@@ -1,0 +1,28 @@
+﻿Сборка начата 22.02.2023 18:54:19.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\user\Desktop\численные методы\dih\dih\dih.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\dih.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt dih.cpp
+         dih.cpp
+     1>C:\Users\user\Desktop\численные методы\dih\dih\dih.cpp(4,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>C:\Users\user\Desktop\численные методы\dih\dih\dih.cpp(6,23): warning C4305: инициализация: усечение из "double" в "float"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\численные методы\dih\Debug\dih.exe" /INCREMENTAL /ILK:"Debug\dih.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Desktop\численные методы\dih\Debug\dih.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Desktop\численные методы\dih\Debug\dih.lib" /MACHINE:X86 Debug\dih.obj
+         dih.vcxproj -> C:\Users\user\Desktop\численные методы\dih\Debug\dih.exe
+       FinalizeBuildStatus:
+         Файл "Debug\dih.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\dih.tlog\dih.lastbuildstate".
+     1>Сборка проекта "C:\Users\user\Desktop\численные методы\dih\dih\dih.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\user\Desktop\численные методы\dih\dih\dih.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\user\Desktop\численные методы\dih\dih\dih.cpp(4,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         C:\Users\user\Desktop\численные методы\dih\dih\dih.cpp(6,23): warning C4305: инициализация: усечение из "double" в "float"
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.99
